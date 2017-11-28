@@ -10,11 +10,11 @@
 
 • افتح ترمنال وحط 
 
-git clone https://github.com/moodlIMyIl/TshAkEapi
+git clone https://github.com/BMW199/MASTER
 
 • انتر وراه حط •
 
-cd TshAkEapi
+cd MASTER
 
 • وانتر وراه حط •
 
