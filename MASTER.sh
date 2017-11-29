@@ -31,7 +31,7 @@ echo -e "\e[33m                                              Dev @kazzrr"
     exit 1
  fi
 if [ ! $token ]; then
-echo -e ""                                                      Dev @Tel_i_i56"
+echo -e ""                                                   Dev @Tel_i_i56"
 echo -e "\e[33m        ░░░░░░░░░░░▄                          Dev @TOTATY98"
 echo -e "\e[33m              ░░░░░░░░░░░▄                    Dev @Ayngel_k"
 echo -e "\e[33m             ░░░░░░░░░░░▄                     Dev @Alo0oshi_9"
