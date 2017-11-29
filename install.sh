@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd MASTER
+cd TshAkEapi
 red() {
   printf '\e[1;31m%s\n\e[0;39;49m' "$@"
 }
@@ -18,45 +18,45 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_MASTER() {
-green "     »»             Welcome to MASTER APi bot                       ««      "
+function logo1_TshAkE() {
+green "     »»             Welcome to TshAkE APi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
 yellow ""
-yellow "             ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱                    "
-yellow "              ╱╱┏╮╱╱╱╱╱╱╱╱╱╱╱╱                   "
-yellow "              ╱╱┃┃╱╱╱┳╱┓┳╭┫┳┓╱                   "
-yellow "             ▉━╯┗━╮╱┃╱┃┣┻╮┣╱╱                   "
-yellow "             ▉┈┈┈┈┃╱┻┛┛┻╱┻┻┛╱                   "
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_MASTER() {
+function logo2_TshAkE() {
 yellow ""
 yellow ""
 yellow ""
-yellow "             ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱                   "
-yellow "              ╱╱┏╮╱╱╱╱╱╱╱╱╱╱╱╱                  "
-yellow "              ╱╱┃┃╱╱╱┳╱┓┳╭┫┳┓╱                  "
-yellow "             ▉━╯┗━╮╱┃╱┃┣┻╮┣╱╱                  "
-yellow "             ▉┈┈┈┈┃╱┻┛┛┻╱┻┻┛╱                  "
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 yellow ""
 Dev    "            Dev @lIMyIl"
-Dev    "            Dev @TOTATY98"
-Dev    "            Dev @Ayngel_K"
-Dev    "            Dev @Alo0oshi_9"
-Dev    "            Dev @kazzrr1"
-Dev    "            Dev @kazzrr"
+Dev    "            Dev @EMADOFFICAL"
+Dev    "            Dev @IX00XI"
+Dev    "            Dev @H_173"
+Dev    "            Dev @lIESIl"
+Dev    "            Dev @h_k_a"
 yellow ""
 yellow ""
-green "     »»           MASTER APi successfully installed                 ««      "
+green "     »»           TshAkE APi successfully installed                 ««      "
 green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./MASTER.sh                               ««      "
+red   "     »»                   ./TSHAKE.sh                               ««      "
 }
-function install_MASTER() {
+function install_TshAkE() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -78,7 +78,7 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 
 }
-function VICTOR_MASTER() {
+function VICTOR_TshAkE() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -106,21 +106,21 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function MOODY_MASTER() {
+function MOODY_TshAkE() {
  cd TshAkEapi
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_MASTER() {
+function chmod_TshAkE() {
  chmod +x tg
- chmod +x MASTER.sh
- chmod +x MASTER-Auto.sh
+ chmod +x TSHAKE.sh
+ chmod +x TSHAKE-Auto.sh
 }
 
-logo1_MASTER
-install_MASTER
-VICTOR_MASTER
-MOODY_MASTER
-chmod_MASTER
-logo2_MASTER
+logo1_TshAkE
+install_TshAkE
+VICTOR_TshAkE
+MOODY_TshAkE
+chmod_TshAkE
+logo2_TshAkE
